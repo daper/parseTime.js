@@ -795,3 +795,110 @@ parseTimeObject.words.pt = {
     '\\.' : ''
   }
 };
+
+
+parseTimeObject.words.es = {
+  currently: ['ahora'],
+  clockwords: [
+    'en punto'
+  ],
+  numbers: {
+    'cero' : 0,
+    'uno' : 1,
+    'dos' : 2,
+    'tres' : 3,
+    'un rato' : 3.5,
+    'un poco': 3.5,
+    'algo' : 3.5,
+    'cuatro' : 4,
+    'cinco' : 5,
+    'seis' : 6,
+    'siete' : 7,
+    'ocho' : 8,
+    'nueve' : 9,
+    'diez' : 10,
+    'once' : 11,
+    'doce' : 12,
+    'trece' : 13,
+    'catorce' : 14,
+    'quince' : 15,
+    'dieciseis' : 16,
+    'diecisiete' : 17,
+    'dieciocho' : 18,
+    'diecinueve' : 19,
+    'veinte' : 20,
+    'treinta' : 30,
+    'cuarenta' : 40,
+    'cincuenta' : 50,
+    'sesenta' : 60,
+    'setenta' : 70,
+    'ochenta' : 80,
+    'noventa' : 90,
+    'cien' : 100,
+    'mil' : 1000,
+    'mill%C3%B3n' : 1000000,
+    'millon' : 1000000
+  },
+  unit: {
+    'milisegundo' : 1,
+    'segundo' : 1000,
+    'minuto' : 60000,
+    'hora' : 3600000,
+    'd%C3%ADa' : 86400000,
+    'dia' : 86400000,
+    'semana' : 604800000,
+    'mes' : 2592000000,
+    'trimestre' : 7776000000,
+    'a%C3%B1o' : 31536000000,
+    'd%C3%A9cada' : 315360000000,
+    'decada' : 315360000000
+  },
+  countable: {
+    'antes de ayer' : -17280000,
+    'ayer' : -8640000,
+    'hoy' : 1,
+    'pasado ma%C3%B1ana' : 17280000,
+    'ma%C3%B1ana' : 8640000,
+    'en una semana' : 60480000,
+    'semana que viene' : 60480000,
+    'semana pasada' : -60480000
+  },
+  month: {
+    'ene' : '01',
+    'feb' : '02',
+    'mar' : '03',
+    'abr' : '04',
+    'may' : '05',
+    'jun' : '06',
+    'jul' : '07',
+    'ago' : '08',
+    'sep' : '09',
+    'oct' : '10',
+    'nov' : '11',
+    'dic' : '12'
+  },
+  daytime: {
+    'madrugada': '04:00',
+    'por la ma%C3%B1ana': '06:00',
+    'despu%C3%A9s de comer': '15:00',
+    'despues de comer': '15:00',
+    'mediod%C3%ADa': '12:00',
+    'mediodia': '12:00',
+    'media tarde': '17:00',
+    'tarde': '19:00',
+    'anochecer': '20:00',
+    'medianoche': '24:00',
+    'noche': '22:00'
+  },
+  fillwords: {
+    'hace' : '-',
+    'en' : '+',
+    'dentro de' : '+'
+  },
+  fillfoo: {
+    's' : '',
+    '\\-' : '',
+    '\\ ' : '',
+    '\\.' : ''
+  }
+};
