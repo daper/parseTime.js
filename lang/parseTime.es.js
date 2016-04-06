@@ -6,6 +6,7 @@ parseTimeObject.words.es = {
   numbers: {
     'cero' : 0,
     'uno' : 1,
+    'un' : 1,
     'dos' : 2,
     'tres' : 3,
     'un rato' : 3.5,
